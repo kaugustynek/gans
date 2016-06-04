@@ -20,7 +20,7 @@ namespace ga.model
         public Individual(Individual individual)
         {
             Fitness = individual.Fitness;
-            Chromosome = new Chromosome(Individual.)
+            Chromosome = new Chromosome(individual.Chromosome);
         }
     }
 }

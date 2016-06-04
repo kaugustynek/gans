@@ -18,6 +18,11 @@ namespace ga.model
             }
         }
 
+        public Chromosome(Chromosome other)
+        {
+            Genes = new List<bool>(other.Genes);
+        }
+
         public Chromosome(int chromosomeLength, Random random)
         {
             Genes = Enumerable.Range(0, chromosomeLength)

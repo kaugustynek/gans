@@ -46,7 +46,7 @@ namespace ga.model
                 distribution[i] += distribution[i - 1];
             }
 
-            
+            // TODO: parents selection
 
             return result;
         }
@@ -61,6 +61,7 @@ namespace ga.model
                 if (rand < distribution[i])
                 {
                     result = new Individual(Individuals[i]);
+                    break;
                 }
             }
 
