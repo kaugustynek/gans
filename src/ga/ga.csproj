@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="crossover\ICrossoverOperator.cs" />
+    <Compile Include="crossover\OnePointCrossover.cs" />
     <Compile Include="model\Chromosome.cs" />
     <Compile Include="model\Individual.cs" />
     <Compile Include="model\Population.cs" />
+    <Compile Include="mutation\IMutatationOperator.cs" />
+    <Compile Include="mutation\UniformMutation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
