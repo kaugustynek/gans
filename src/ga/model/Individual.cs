@@ -16,5 +16,11 @@ namespace ga.model
         {
             Chromosome = new Chromosome(chromosomeLength, random);
         }
+
+        public Individual(Individual individual)
+        {
+            Fitness = individual.Fitness;
+            Chromosome = new Chromosome(Individual.)
+        }
     }
 }
